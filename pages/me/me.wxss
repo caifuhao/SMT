@@ -1,0 +1,95 @@
+/* my.wxss */
+
+/* header */
+.head-wrap{
+    height: 70px;
+    line-height: 70px;
+    background-color: #3CB371;
+    text-align: center;
+}
+.icon-avatar{
+    width: 30px;
+    height: 30px;
+    vertical-align: -7px;
+}
+.login-logup{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* usr type */
+.type-wrap{
+    padding: 20px 0;
+    text-align: center;
+}
+.type-wrap text{
+    font-size: 16px;
+    color: #999;
+    border: 1px solid #3CB371;
+    padding: 5px 26px;
+}
+.type-wrap text.on{
+    color: #fff;
+    background-color: #3CB371;
+}
+.buyer{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.seller{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+
+/* order content */
+.order-wrap{
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+.info-top{
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.more-tips{
+    float: right;
+    color: #999;
+}
+.info-item{
+    display: inline-block;
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 16px 0;
+}
+.info-item image{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+.info-item text{
+    font-size: 15px;
+    color: #666;
+}
+
+
+/* my coupon */
+.coupon-wrap{
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    padding: 0 20px;
+}
+.coupon-wrap text{
+    font-size: 16px;
+    color: #666;
+}
+.check-all{
+    float: right;
+    color: #999;
+}

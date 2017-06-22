@@ -1,0 +1,45 @@
+/* message.wxss */
+
+
+/* content */
+.info-cover{
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.table-top{
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #cdcdcd;
+	padding: 0 20px;
+}
+.tit-icon{
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+.info-tit{
+	color: #3CB371;
+	margin-left: 10px;
+}
+.check-more{
+	float: right;
+	color: #666;
+}
+
+/* order list */
+.info-list{
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+}
+.info-item text{
+	display: inline-block;
+	color: #666;
+}
+.w-per-3 text{
+	width: calc(100% / 3);
+}
+.w-per-4 text{
+	width: calc(100% / 4);
+}

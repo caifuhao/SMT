@@ -1,0 +1,90 @@
+<!--detail.wxml-->
+
+<view class="detail-main-view">
+  <view class="c-dou-merchant">
+    <view class="c-dou">豆粕</view>
+    <view class="c-merchant">商户</view>
+  </view>
+  <view class="c-price">
+    价格
+  </view>
+
+  <view wx:for="{{product.attrs}}" data-index="{{index}}">
+    <view class="c-attr attr-{{index%2}}">{{item.key}}：{{item.value}}</view>
+  </view>
+
+  <view class="clear"></view>
+
+
+
+
+
+  <view class="weui-cells weui-cells_after-title c-form-main">
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">输入购买数量：</view>
+      </view>
+      <view class="weui-cell__bd">
+        <input class="weui-input" placeholder="请输入数量" />
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">计划提货日期：</view>
+      </view>
+      <view class="weui-cell__bd">
+        <!--<input class="weui-input" placeholder="请选择日期" />-->
+        <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">
+          <view class="weui-input">{{date}}</view>
+        </picker>
+      </view>
+    </view>
+    <view class="weui-cell weui-cell_input">
+      <view class="weui-cell__hd">
+        <view class="weui-label">提货方式：</view>
+      </view>
+      <view class="weui-cell__bd">
+
+
+
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio" wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+          </label>
+        </radio-group>
+
+
+      </view>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <view class="c-remark">
+asdasda
+  </view>
+</view>
+
+
+
+<view class="c-buy">
+  <view>合计:</view>
+  <view class="c-buy-right">
+    <button type="warn" size="mini" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="warn"> 下单 </button>
+  </view>
+
+</view>

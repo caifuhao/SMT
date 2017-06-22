@@ -1,0 +1,17 @@
+<!--cargo.wxml-->
+
+
+<!-- tab bar -->
+<view class="tab-wrap">
+	<view class="tab-top">
+		<view class="tab-item on">待审核</view>
+		<view class="tab-item">提货执行中</view>
+		<view class="tab-item">提货完成</view>
+	</view>
+	<view class="tab-con">
+		<view class="no-info">
+			<image class="img-box" src="../../image/box.png"></image>
+			<text class="info-tips">暂无提货记录</text>
+		</view>
+	</view>
+</view>

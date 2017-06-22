@@ -1,0 +1,48 @@
+<!--my.wxml-->
+
+<!-- header -->
+<!--<view class="head-wrap">
+    <image class="icon-avatar" src="../../image/avatar.png"></image>
+    <text class="login-logup">登陆 / 注册</text>
+</view>-->
+
+
+<!-- user type -->
+<view class="type-wrap">
+    <text class="buyer on">我是买家</text>
+    <text class="seller">我是卖家</text>
+</view>
+
+
+<!-- order content -->
+<view class="order-wrap">
+    <view class="info-top">
+        <text class="info-tit">我的订单</text>
+        <text class="more-tips">查看全部订单 ></text>
+    </view>
+    <view class="info-con">
+        <view class="info-item">
+            <image src="../../image/sure-order.png"></image>
+            <text>待确认合同</text>
+        </view>
+        <view class="info-item">
+            <image src="../../image/wait-pay.png"></image>
+            <text>待付款</text>
+        </view>
+        <view class="info-item">
+            <image src="../../image/deliver-goods.png"></image>
+            <text>提货中</text>
+        </view>
+        <view class="info-item">
+            <image src="../../image/done.png"></image>
+            <text>已完成</text>
+        </view>
+    </view>
+</view>
+
+
+<!-- my coupon -->
+<view class="coupon-wrap">
+    <text class="info-tit">我的优惠券</text>
+    <text class="check-all">查看全部 ></text>
+</view>

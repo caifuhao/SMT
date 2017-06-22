@@ -1,0 +1,42 @@
+/* cargo.wxss */
+
+/* header wrap */
+
+/* tab bar */
+.tab-top{
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.tab-item{
+	display: inline-block;
+	width: calc(100% / 3);
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.tab-item.on{
+	color: mediumseagreen;
+	border-bottom: 2px solid mediumseagreen;
+}
+
+.no-info{
+	padding-top: 100px;
+	text-align: center;
+}
+
+.no-info .img-box{
+	display: block;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+}
+
+.no-info .info-tips{
+	font-size: 20px;
+	line-height: 50px;
+	color: #cdcdcd;
+}

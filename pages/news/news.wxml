@@ -1,0 +1,68 @@
+<!--message.wxml-->
+
+
+<!-- content -->
+<view class="content-wrap">
+    <!-- 生产计划 production-plan -->
+    <view class="info-cover">
+        <view class="table-top">
+            <image class="tit-icon" src="../../image/date.png"></image>
+            <text class="info-tit">生产计划</text>
+            <text class="check-more">查询更多 ></text>
+        </view>
+        <view class="info-list">
+            <view class="info-item w-per-3">
+                <text>南通</text>
+                <text>嘉吉</text>
+                <text>开机</text>
+            </view>
+            <view class="info-item w-per-3">
+                <text>南通</text>
+                <text>嘉吉</text>
+                <text>开机</text>
+            </view>
+        </view>
+    </view>
+    <!-- 排队情况 line-state -->
+    <view class="info-cover">
+        <view class="table-top">
+            <image class="tit-icon" src="../../image/line.png"></image>
+            <text class="info-tit">排队情况</text>
+            <text class="check-more">查询更多 ></text>
+        </view>
+        <view class="info-list">
+            <view class="info-item w-per-3">
+                <text>南通</text>
+                <text>嘉吉</text>
+                <text>开机</text>
+            </view>
+            <view class="info-item w-per-3">
+                <text>南通</text>
+                <text>嘉吉</text>
+                <text>开机</text>
+            </view>
+        </view>
+    </view>
+    <!-- 订单进度 order-schedule -->
+    <view class="info-cover">
+        <view class="table-top">
+            <image class="tit-icon" src="../../image/order.png"></image>
+            <text class="info-tit">订单进度</text>
+            <text class="check-more">查询更多 ></text>
+        </view>
+        <view class="info-list">
+            <view class="info-item w-per-4">
+                <text>张家港</text>
+                <text>嘉吉</text>
+                <text>40***34</text>
+                <text>排队中</text>
+            </view>
+            <view class="info-item w-per-4">
+                <text>南通</text>
+                <text>嘉吉</text>
+                <text>40***34</text>
+                <text>出厂中</text>
+            </view>
+        </view>
+    </view>
+</view>

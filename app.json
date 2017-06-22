@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/delivery/delivery",
+    "pages/news/news",
+    "pages/me/me",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3cc51f",
+    "navigationBarTitleText": "商贸通",
+    "navigationBarTextStyle": "#ffffff"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/tabbar_price.png",
+        "selectedIconPath": "image/tabbar_price_hl.png",
+        "text": "报价"
+      },
+      {
+        "pagePath": "pages/delivery/delivery",
+        "iconPath": "image/tabbar_car.png",
+        "selectedIconPath": "image/tabbar_car_hl.png",
+        "text": "提货"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "image/tabbar_news.png",
+        "selectedIconPath": "image/tabbar_news_hl.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "image/tabbar_me.png",
+        "selectedIconPath": "image/tabbar_me_hl.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
