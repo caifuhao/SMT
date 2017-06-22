@@ -1,0 +1,8 @@
+/* tip.wxss */
+.null{margin-top: 100rpx}
+.tc{text-align: center;}
+.null .txt1{color:#000;font-size:38rpx;margin-top: 20rpx;}
+.null .txt2{font-size:30rpx;margin-top:20rpx;}
+
+
+button{margin:30rpx 50rpx;}
